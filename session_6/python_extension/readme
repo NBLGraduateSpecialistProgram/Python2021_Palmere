@@ -1,0 +1,8 @@
+# Directory Contents:
+
+matrixmodule.cpp # source code for the matrix module for Python importation
+
+$ ./install.sh # install using 'setup.py' located in this dir
+$ ./uninstall.sh # uninstall and remove associated directories
+
+$ ./matrix_test.py # Tests the importation and use of the matrix module we wrote in C++

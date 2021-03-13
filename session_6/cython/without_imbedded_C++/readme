@@ -1,0 +1,7 @@
+# ./setup.py build_Ext --inplace 
+
+# Outputs translation of Python code to C as well as the library for importation (.so or "shared object" for OSX or .pyd "python dynamic?" - these are basically dynamic link libraries ready to be imported by your Python interpreter) 
+
+# ./matrix_test.py to test this importation and execution of Cythonized code
+
+# Note - the .so or .pyd must be within the same working directory to be imported
